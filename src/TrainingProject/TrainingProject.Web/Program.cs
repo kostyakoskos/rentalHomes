@@ -14,6 +14,12 @@ namespace TrainingProject.Web
     {
         public static void Main(string[] args)
         {
+            Log.Logger = new LoggerConfiguration()
+               .MinimumLevel.Debug()
+               .WriteTo.Console()
+               .WriteTo.File(@"C:\\Education\\asp\\RentalHomes\\log.txt")
+               .CreateLogger();
+
             CreateHostBuilder(args).Build().Run();
         }
 
@@ -21,6 +27,9 @@ namespace TrainingProject.Web
             Host.CreateDefaultBuilder(args)
                 .ConfigureLogging(builder => builder.ClearProviders()
                     .AddSerilog().AddDebug().AddConsole())
-                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+                .ConfigureWebHostDefaults(webBuilder => {
+
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }

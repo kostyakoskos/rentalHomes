@@ -1,0 +1,93 @@
+2020-03-25 11:39:56.360 +03:00 [DBG] Hosting starting
+2020-03-25 11:39:56.688 +03:00 [DBG] Loaded hosting startup assembly TrainingProject.Web
+2020-03-25 11:39:56.705 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-25 11:39:56.732 +03:00 [INF] Hosting environment: Development
+2020-03-25 11:39:56.739 +03:00 [INF] Content root path: C:\Education\asp\RentalHomes\src\TrainingProject\TrainingProject.Web
+2020-03-25 11:39:56.744 +03:00 [DBG] Hosting started
+2020-03-25 11:39:56.772 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44318/weatherforecast  
+2020-03-25 11:39:56.784 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-03-25 11:39:56.803 +03:00 [DBG] The request path  does not match the path filter
+2020-03-25 11:39:56.844 +03:00 [DBG] 1 candidate(s) found for the request path '/weatherforecast'
+2020-03-25 11:39:56.852 +03:00 [DBG] Endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'
+2020-03-25 11:39:56.853 +03:00 [DBG] Request matched endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:39:56.856 +03:00 [INF] Executing endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:39:56.869 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-03-25 11:39:56.928 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TrainingProject.Web.WeatherForecast] Get() on controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web).
+2020-03-25 11:39:56.933 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-03-25 11:39:56.934 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-03-25 11:39:56.934 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-03-25 11:39:56.934 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-03-25 11:39:56.935 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-03-25 11:39:56.936 +03:00 [DBG] Executing controller factory for controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web)
+2020-03-25 11:39:56.937 +03:00 [DBG] Executed controller factory for controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web)
+2020-03-25 11:39:56.942 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-03-25 11:39:56.946 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-03-25 11:39:56.946 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-03-25 11:39:56.946 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-03-25 11:39:56.947 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-03-25 11:39:56.947 +03:00 [INF] Executing ObjectResult, writing value of type 'TrainingProject.Web.WeatherForecast[]'.
+2020-03-25 11:39:57.002 +03:00 [INF] Executed action TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web) in 55.6297ms
+2020-03-25 11:39:57.004 +03:00 [INF] Executed endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:39:57.009 +03:00 [INF] Request finished in 242.8154ms 200 application/json; charset=utf-8
+2020-03-25 11:41:12.057 +03:00 [DBG] Hosting starting
+2020-03-25 11:41:12.649 +03:00 [DBG] Loaded hosting startup assembly TrainingProject.Web
+2020-03-25 11:41:12.667 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-25 11:41:12.694 +03:00 [INF] Hosting environment: Development
+2020-03-25 11:41:12.696 +03:00 [INF] Content root path: C:\Education\asp\RentalHomes\src\TrainingProject\TrainingProject.Web
+2020-03-25 11:41:12.699 +03:00 [DBG] Hosting started
+2020-03-25 11:41:12.719 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44318/weatherforecast  
+2020-03-25 11:41:12.726 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-03-25 11:41:12.737 +03:00 [DBG] The request path  does not match the path filter
+2020-03-25 11:41:12.798 +03:00 [DBG] 1 candidate(s) found for the request path '/weatherforecast'
+2020-03-25 11:41:12.810 +03:00 [DBG] Endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'
+2020-03-25 11:41:12.812 +03:00 [DBG] Request matched endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:41:12.815 +03:00 [INF] Executing endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:41:12.832 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-03-25 11:41:12.886 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TrainingProject.Web.WeatherForecast] Get() on controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web).
+2020-03-25 11:41:12.891 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-03-25 11:41:12.892 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-03-25 11:41:12.892 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-03-25 11:41:12.892 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-03-25 11:41:12.893 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-03-25 11:41:12.894 +03:00 [DBG] Executing controller factory for controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web)
+2020-03-25 11:41:12.895 +03:00 [DBG] Executed controller factory for controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web)
+2020-03-25 11:41:12.900 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-03-25 11:41:12.903 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-03-25 11:41:12.903 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-03-25 11:41:12.903 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-03-25 11:41:12.904 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-03-25 11:41:12.905 +03:00 [INF] Executing ObjectResult, writing value of type 'TrainingProject.Web.WeatherForecast[]'.
+2020-03-25 11:41:12.950 +03:00 [INF] Executed action TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web) in 47.9078ms
+2020-03-25 11:41:12.952 +03:00 [INF] Executed endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:41:12.955 +03:00 [INF] Request finished in 239.1499ms 200 application/json; charset=utf-8
+2020-03-25 11:41:40.449 +03:00 [DBG] Hosting starting
+2020-03-25 11:41:40.821 +03:00 [DBG] Loaded hosting startup assembly TrainingProject.Web
+2020-03-25 11:41:40.832 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-03-25 11:41:40.880 +03:00 [INF] Hosting environment: Development
+2020-03-25 11:41:40.884 +03:00 [INF] Content root path: C:\Education\asp\RentalHomes\src\TrainingProject\TrainingProject.Web
+2020-03-25 11:41:40.887 +03:00 [DBG] Hosting started
+2020-03-25 11:41:40.909 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44318/weatherforecast  
+2020-03-25 11:41:40.918 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-03-25 11:41:40.933 +03:00 [DBG] The request path  does not match the path filter
+2020-03-25 11:41:40.967 +03:00 [DBG] 1 candidate(s) found for the request path '/weatherforecast'
+2020-03-25 11:41:40.974 +03:00 [DBG] Endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'
+2020-03-25 11:41:40.976 +03:00 [DBG] Request matched endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:41:40.979 +03:00 [INF] Executing endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:41:40.992 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-03-25 11:41:41.048 +03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TrainingProject.Web.WeatherForecast] Get() on controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web).
+2020-03-25 11:41:41.055 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-03-25 11:41:41.055 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-03-25 11:41:41.056 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-03-25 11:41:41.056 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-03-25 11:41:41.056 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-03-25 11:41:41.057 +03:00 [DBG] Executing controller factory for controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web)
+2020-03-25 11:41:41.059 +03:00 [DBG] Executed controller factory for controller TrainingProject.Web.Controllers.WeatherForecastController (TrainingProject.Web)
+2020-03-25 11:41:41.066 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2020-03-25 11:41:41.070 +03:00 [DBG] No information found on request to perform content negotiation.
+2020-03-25 11:41:41.070 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-03-25 11:41:41.071 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-03-25 11:41:41.073 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2020-03-25 11:41:41.073 +03:00 [INF] Executing ObjectResult, writing value of type 'TrainingProject.Web.WeatherForecast[]'.
+2020-03-25 11:41:41.121 +03:00 [INF] Executed action TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web) in 56.8785ms
+2020-03-25 11:41:41.123 +03:00 [INF] Executed endpoint 'TrainingProject.Web.Controllers.WeatherForecastController.Get (TrainingProject.Web)'
+2020-03-25 11:41:41.130 +03:00 [INF] Request finished in 225.3791ms 200 application/json; charset=utf-8
