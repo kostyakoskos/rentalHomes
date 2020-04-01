@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +17,7 @@ namespace TrainingProject.Web
             Log.Logger = new LoggerConfiguration()
                .MinimumLevel.Debug()
                .WriteTo.Console()
-               .WriteTo.File(@"C:\\Education\\asp\\RentalHomes\\log.txt")
+               .WriteTo.File(@"C:\\Education\\asp\\RentalHomes\\log.txt")//сделать так чтобы лог писался в папку проекта(application data) appsetting
                .CreateLogger();
 
             CreateHostBuilder(args).Build().Run();
